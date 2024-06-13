@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
     params.B.row = B_ROW; params.B.column = B_COLUMN; params.B.data_ptr = MAT_B;
     params.C.row = C_ROW; params.C.column = C_COLUMN;
     params.opt_params.blk_size = BLK_SIZE; params.opt_params.num_thread = NUM_THREAD;
-    
+
     //Baseline
     params.C.data_ptr = native_C;
     matmul_op.evaluate(MatmulOperator::NAIVE, &params);
