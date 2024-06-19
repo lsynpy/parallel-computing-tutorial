@@ -1,6 +1,6 @@
 # Compiler
 CC = g++
-CC_FLAGS = -O0 -g
+CC_FLAGS = -O3 -g
 SRC = $(wildcard src/*.cpp)
 LIB =
 CUDA_SRCS =

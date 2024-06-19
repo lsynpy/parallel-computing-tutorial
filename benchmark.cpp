@@ -13,7 +13,7 @@
 #define B_COLUMN 640
 #define C_ROW 640
 #define C_COLUMN 640
-#define NUM_THREAD 4
+#define NUM_THREAD 16
 
 float MAT_A[A_ROW * A_COLUMN];
 float MAT_B[B_ROW * B_COLUMN];
